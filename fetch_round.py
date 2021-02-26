@@ -9,8 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from PIL import Image
 import os
 
-PATH= "C:\Program Files\chromedriver.exe"
-driver= webdriver.Chrome(PATH)
+driver= webdriver.Chrome()
 #delimiter is whitespace
 problemset= input("Enter set number: ")
 
